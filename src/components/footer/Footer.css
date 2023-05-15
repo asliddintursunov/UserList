@@ -1,0 +1,21 @@
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: fit-content;
+    background-color: #000000b9;
+    padding: 0.3rem;
+    box-shadow: 0 -1px 5px #d6d6d6;
+}
+a{
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+}
+a:hover{
+    text-decoration: underline;
+
+}

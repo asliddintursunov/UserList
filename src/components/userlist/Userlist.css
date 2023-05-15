@@ -1,0 +1,44 @@
+.userslist-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+    gap: 1rem;
+    width: fit-content;
+    height: fit-content;
+}
+
+.userlist-card{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 0.5rem;
+    background-color: rgb(117, 117, 117, 0.7);
+    min-width: 15rem;
+    min-height: 20rem;
+    border-radius: 0.75rem;
+    -webkit-border-radius: 0.75rem;
+    -moz-border-radius: 0.75rem;
+    -ms-border-radius: 0.75rem;
+    -o-border-radius: 0.75rem;
+}
+.noUser{
+    position: fixed;
+    left: 45%;
+    top: 45%;
+    opacity: 0.3;
+}
+img{
+    width: max-content;
+    height: 8rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    object-fit: cover;
+    object-position: center;
+}
